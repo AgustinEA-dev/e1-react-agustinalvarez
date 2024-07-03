@@ -28,6 +28,9 @@ const Text = styled.h1`
   font-size: 15px;
   font-weight: 400;
   text-align: center;
+  @media (max-width:169px){
+    font-size: 10px;
+  }
 `;
 
 const HeroImgStyled = styled.div`

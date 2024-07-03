@@ -6,11 +6,12 @@ const FooterStyled = styled.footer`
   align-items: center;
   height: 300px;
   margin-top: 40px;
-  background: linear-gradient(
-    to right,
-    #434343,
-    #000000
-  );
+  background: linear-gradient(to right, #434343, #000000);
+  @media (max-width:471px){
+    flex-direction: column;
+    justify-content: center;
+    gap:20px
+  }
 `;
 
 const FooterH3Styled = styled.h3`
@@ -19,6 +20,10 @@ const FooterH3Styled = styled.h3`
   font-family: "Times New Roman", Times, serif;
   font-size: 14px;
   padding: 50px;
+  text-align: center;
+  @media (max-width: 471px) {
+    padding: 0;
+  }
 `;
 
 const FooterIconsDiv = styled.div`
@@ -27,6 +32,9 @@ const FooterIconsDiv = styled.div`
   gap: 10px;
   color: white;
   font-size: 30px;
+  @media (max-width: 471px) {
+    flex-direction: column;
+  }
 `;
 
 const FooterContactDiv = styled.div`
@@ -37,7 +45,11 @@ const FooterContactDiv = styled.div`
   max-width: 350px;
   font-family: "Times New Roman", Times, serif;
   font-size: 14px;
+  text-align: center;
   padding: 50px;
+  @media (max-width: 471px) {
+    padding: 0;
+  }
 `;
 
 function Footer() {
@@ -48,7 +60,6 @@ function Footer() {
           "© 2021 CellTech. All rights reserved. <br />
           Designed and developed by Agustín Álvarez.
         </FooterH3Styled>
-        <hr />
         <FooterIconsDiv>
           <i class="fa-brands fa-square-instagram"></i>
           <i class="fa-brands fa-facebook"></i>

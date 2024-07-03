@@ -31,9 +31,26 @@ body {
 }
 
 .card-h3 {
-    width: 250px;
+    max-width: 250px;
 }
 
 hr {
     width: 50px;
 }
+
+/* Mediaqueries */
+
+@media (max-width:201px) {
+    .card-img {
+        width: 100px;
+    }
+}
+
+@media (max-width:179px){
+    .card-h3{
+        font-size: 10px;
+    }
+}
+
+
+
