@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+/* Body styles */
+
+body {
+    background-color: #3e8eff;
+}
+
+/* Products styles */
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.card-img {
+    width: 150px;
+}
+
+.img-container {
+    display: flex;
+    align-items: flex-end;
+}
+
+.card-h3 {
+    width: 250px;
+}
+
+hr {
+    width: 50px;
+}
