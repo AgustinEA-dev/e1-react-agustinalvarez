@@ -7,17 +7,17 @@ const FooterStyled = styled.footer`
   height: 300px;
   margin-top: 40px;
   background: linear-gradient(to right, #434343, #000000);
-  @media (max-width:471px){
+  @media (max-width: 471px) {
     flex-direction: column;
     justify-content: center;
-    gap:20px
+    gap: 20px;
   }
 `;
 
 const FooterH3Styled = styled.h3`
   color: white;
   max-width: 350px;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Raleway", sans-serif;
   font-size: 14px;
   padding: 50px;
   text-align: center;
@@ -43,7 +43,7 @@ const FooterContactDiv = styled.div`
   align-items: center;
   color: white;
   max-width: 350px;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Raleway", sans-serif;
   font-size: 14px;
   text-align: center;
   padding: 50px;
@@ -64,9 +64,9 @@ function Footer() {
           <i class="fa-brands fa-square-instagram"></i>
           <i class="fa-brands fa-facebook"></i>
         </FooterIconsDiv>
-        <FooterContactDiv>
+        <FooterH3Styled>
           Contact us at info@CELLTech.com for any inquiries or support.
-        </FooterContactDiv>
+        </FooterH3Styled>
       </FooterStyled>
     </>
   );
