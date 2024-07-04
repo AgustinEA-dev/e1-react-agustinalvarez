@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 /* Body styles */
@@ -46,11 +46,8 @@ hr {
     }
 }
 
-@media (max-width:179px){
-    .card-h3{
+@media (max-width:179px) {
+    .card-h3 {
         font-size: 10px;
     }
 }
-
-
-

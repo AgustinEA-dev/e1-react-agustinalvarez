@@ -16,7 +16,7 @@ const FooterStyled = styled.footer`
 
 const FooterH3Styled = styled.h3`
   color: white;
-  max-width: 350px;
+  /* max-width: 350px; */
   font-family: "Raleway", sans-serif;
   font-size: 14px;
   padding: 50px;
@@ -34,21 +34,6 @@ const FooterIconsDiv = styled.div`
   font-size: 30px;
   @media (max-width: 471px) {
     flex-direction: column;
-  }
-`;
-
-const FooterContactDiv = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: white;
-  max-width: 350px;
-  font-family: "Raleway", sans-serif;
-  font-size: 14px;
-  text-align: center;
-  padding: 50px;
-  @media (max-width: 471px) {
-    padding: 0;
   }
 `;
 
