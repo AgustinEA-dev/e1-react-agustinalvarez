@@ -50,7 +50,8 @@ function Footer() {
           <i class="fa-brands fa-facebook"></i>
         </FooterIconsDiv>
         <FooterH3Styled>
-          Contact us at info@CELLTech.com for any inquiries or support.
+          For any inquiries or support. <br />
+          Contact us at info@CELLTech.com
         </FooterH3Styled>
       </FooterStyled>
     </>
