@@ -5,6 +5,7 @@ const NavBarStyled = styled.nav`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: black;
   @media (max-width: 220px) {
     flex-direction: column;
     justify-content: center;

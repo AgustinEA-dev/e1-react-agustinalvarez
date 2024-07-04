@@ -6,7 +6,8 @@ const FooterStyled = styled.footer`
   align-items: center;
   height: 300px;
   margin-top: 40px;
-  background: linear-gradient(to right, #434343, #000000);
+  background-image: url("./background-geometric.png");
+  background-size: cover;
   @media (max-width: 471px) {
     flex-direction: column;
     justify-content: center;
