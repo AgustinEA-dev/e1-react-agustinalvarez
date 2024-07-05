@@ -1,42 +1,4 @@
-import styled from "styled-components";
-
-const FooterStyled = styled.footer`
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 300px;
-  margin-top: 40px;
-  background-image: url("./background-geometric.png");
-  background-size: cover;
-  @media (max-width: 471px) {
-    flex-direction: column;
-    justify-content: center;
-    gap: 20px;
-  }
-`;
-
-const FooterH3Styled = styled.h3`
-  color: white;
-  /* max-width: 350px; */
-  font-family: "Raleway", sans-serif;
-  font-size: 14px;
-  padding: 50px;
-  text-align: center;
-  @media (max-width: 471px) {
-    padding: 0;
-  }
-`;
-
-const FooterIconsDiv = styled.div`
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  color: white;
-  font-size: 30px;
-  @media (max-width: 471px) {
-    flex-direction: column;
-  }
-`;
+import { FooterH3Styled, FooterStyled, FooterIconsDiv } from "./footerStyles";
 
 function Footer() {
   return (
@@ -47,8 +9,8 @@ function Footer() {
           Designed and developed by Agustín Álvarez.
         </FooterH3Styled>
         <FooterIconsDiv>
-          <i class="fa-brands fa-square-instagram"></i>
-          <i class="fa-brands fa-facebook"></i>
+          <i className="fa-brands fa-square-instagram"></i>
+          <i className="fa-brands fa-facebook"></i>
         </FooterIconsDiv>
         <FooterH3Styled>
           For any inquiries or support. <br />

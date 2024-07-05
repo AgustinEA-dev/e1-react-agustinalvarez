@@ -1,56 +1,11 @@
-import styled from "styled-components";
+import {
+  ProductsContainerStyled,
+  ProductsH2Styled,
+  ProductsSectionStyled,
+} from "./productsStyles";
+
 import { useState, useEffect } from "react";
 import axios from "axios";
-
-const ProductsSectionStyled = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  background-color: #3e8eff;
-`;
-
-const ProductsH2Styled = styled.h2`
-  font-size: 50px;
-  font-family: "Rubik Mono One", monospace;
-  color: white;
-  text-align: center;
-  padding: 40px;
-  @media (max-width: 471px) {
-    padding: 20px;
-  }
-  @media (max-width: 387px) {
-    font-size: 35px;
-  }
-  @media (max-width: 286px) {
-    font-size: 27px;
-  }
-  @media (max-width: 227px) {
-    font-size: 18px;
-  }
-  @media (max-width: 201px) {
-    padding: 10px;
-  }
-  @media (max-width: 187px) {
-    font-size: 18px;
-  }
-  @media (max-width:149px){
-    font-size: 12px;
-  }
-`;
-
-const ProductsContainerStyled = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 20px;
-  max-width: 1080px;
-  width: 80%;
-  border-radius: 20px;
-  background-color: #ffffff;
-  padding: 40px;
-`;
 
 function Products() {
   const [data, setData] = useState([]);
