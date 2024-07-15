@@ -1,19 +1,27 @@
 import "./GlobalStyles.css";
 
-import Header from "./components/navbar/HeaderComponent.jsx";
-import NavBar from "./components/navbar/NavbarComponent.jsx";
-import Hero from "./components/hero/HeroComponent.jsx";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import Layout from "./components/layoutRouter/LayoutComponent.jsx";
+import Home from "./components/homePage/homeComponent.jsx";
 import Products from "./components/products/ProductsComponent.jsx";
+import About from "./components/about/AboutComponent.jsx";
+import NoPage from "./components/noPage/noPageComponent.jsx";
 import Footer from "./components/footer/FooterComponent.jsx";
 
 function App() {
   return (
     <>
-      <Header>
-        <NavBar />
-      </Header>
-      <Hero />
-      <Products />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Layout />}>
+            <Route index element={<Home />} />
+            <Route path="about" element={<About />} />
+            <Route path="shop" element={<Products />} />
+            <Route path="*" element={<NoPage />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
       <Footer />
     </>
   );

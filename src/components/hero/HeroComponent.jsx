@@ -1,4 +1,4 @@
-import { HeroImgStyled, HeroTextStyled, Text, HeroStyled } from "./heroStyles";
+import {HeroTextStyled, Text, HeroStyled } from "./heroStyles";
 
 function Hero() {
   return (
@@ -7,10 +7,9 @@ function Hero() {
         <HeroTextStyled>
           <Text>
             "Looking for the latest and greatest in electronics? Look no further
-            than our cutting-edge cell phone company!
+            than our cutting-edge company!
           </Text>
         </HeroTextStyled>
-        <HeroImgStyled />
       </HeroStyled>
     </>
   );

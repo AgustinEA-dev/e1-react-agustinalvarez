@@ -5,7 +5,10 @@ export const ProductsSectionStyled = styled.div`
   flex-direction: column;
   align-items: center;
   width: 100%;
-  background-color: #3e8eff;
+  background-image: url("./abstract-bg1.jpg");
+  background-attachment: fixed;
+  background-position: bottom;
+  padding: 0 40px 40px 40px;
 `;
 
 export const ProductsH2Styled = styled.h2`
@@ -13,7 +16,8 @@ export const ProductsH2Styled = styled.h2`
   font-family: "Rubik Mono One", monospace;
   color: white;
   text-align: center;
-  padding: 40px;
+  padding: 60px;
+  
   @media (max-width: 471px) {
     padding: 20px;
   }
@@ -43,8 +47,6 @@ export const ProductsContainerStyled = styled.div`
   align-items: center;
   flex-wrap: wrap;
   gap: 20px;
-  max-width: 1080px;
-  width: 80%;
   border-radius: 20px;
   background-color: #ffffff;
   padding: 40px;

@@ -5,9 +5,9 @@ export const FooterStyled = styled.footer`
   justify-content: space-between;
   align-items: center;
   height: 300px;
-  margin-top: 40px;
-  background-image: url("./background-geometric.png");
+  background-image: url("./keyboard.jpg");
   background-size: cover;
+  background-position: bottom;
   @media (max-width: 471px) {
     flex-direction: column;
     justify-content: center;
@@ -17,7 +17,6 @@ export const FooterStyled = styled.footer`
 
 export const FooterH3Styled = styled.h3`
   color: white;
-  /* max-width: 350px; */
   font-family: "Raleway", sans-serif;
   font-size: 14px;
   padding: 50px;

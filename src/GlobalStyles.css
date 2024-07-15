@@ -8,7 +8,18 @@
 /* Body styles */
 
 body {
-    background-color: #3e8eff;
+    background-color: #000000;
+}
+
+/* Navbar styles  */
+
+nav img {
+    width: 150px;
+    height: 150px;
+}
+
+ul :nth-child(2) {
+    color: #FF5151;
 }
 
 /* Products styles */
@@ -37,6 +48,23 @@ body {
 hr {
     width: 50px;
 }
+
+/* Products */
+
+button {
+    border: none;
+    background-color: #FF5151;
+    padding: 15px;
+    color: #ffff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #9d4747;
+}
+
+
 
 /* Mediaqueries */
 

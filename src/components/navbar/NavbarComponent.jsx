@@ -1,9 +1,7 @@
 import {
   NavBarStyled,
-  LogoStyled,
   UlStyled,
-  LiStyled,
-  Astyled,
+  LinkStyled,
   CartSectionStyled,
   IStyledBars,
   IStyledCart,
@@ -13,21 +11,12 @@ function NavBar() {
   return (
     <>
       <NavBarStyled>
-        <LogoStyled>
-          Cell
-          <br />
-          Tech
-        </LogoStyled>
         <UlStyled>
-          <LiStyled>
-            <Astyled href="">Home</Astyled>
-          </LiStyled>
-          <LiStyled>
-            <Astyled href="">About</Astyled>
-          </LiStyled>
-          <LiStyled>
-            <Astyled href="">Contact</Astyled>
-          </LiStyled>
+          <img src="./logotechremove.png " alt="" />
+          <LinkStyled to="/">Home</LinkStyled>
+          <LinkStyled to="about">About</LinkStyled>
+          <LinkStyled to="shop">Shop</LinkStyled>
+          <LinkStyled to="contact">Contact</LinkStyled>
         </UlStyled>
         <CartSectionStyled>
           <IStyledCart>
