@@ -8,6 +8,7 @@ import Products from "./components/products/ProductsComponent.jsx";
 import About from "./components/about/AboutComponent.jsx";
 import NoPage from "./components/noPage/noPageComponent.jsx";
 import Footer from "./components/footer/FooterComponent.jsx";
+import Contact from "./components/contact/ContactComponent.jsx";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Route index element={<Home />} />
             <Route path="about" element={<About />} />
             <Route path="shop" element={<Products />} />
+            <Route path="contact" element={<Contact />} />
             <Route path="*" element={<NoPage />} />
           </Route>
         </Routes>

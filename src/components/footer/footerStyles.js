@@ -5,9 +5,7 @@ export const FooterStyled = styled.footer`
   justify-content: space-between;
   align-items: center;
   height: 300px;
-  background-image: url("./keyboard.jpg");
-  background-size: cover;
-  background-position: bottom;
+  background-color: black;
   @media (max-width: 471px) {
     flex-direction: column;
     justify-content: center;

@@ -12,8 +12,8 @@ export const ProductsSectionStyled = styled.div`
 `;
 
 export const ProductsH2Styled = styled.h2`
-  font-size: 50px;
-  font-family: "Rubik Mono One", monospace;
+  font-family: "Electrolize", sans-serif;
+  font-size: 70px;
   color: white;
   text-align: center;
   padding: 60px;

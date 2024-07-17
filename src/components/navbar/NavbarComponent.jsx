@@ -15,7 +15,7 @@ function NavBar() {
           <img src="./logotechremove.png " alt="" />
           <LinkStyled to="/">Home</LinkStyled>
           <LinkStyled to="about">About</LinkStyled>
-          <LinkStyled to="shop">Shop</LinkStyled>
+          <LinkStyled to="shop">Products</LinkStyled>
           <LinkStyled to="contact">Contact</LinkStyled>
         </UlStyled>
         <CartSectionStyled>

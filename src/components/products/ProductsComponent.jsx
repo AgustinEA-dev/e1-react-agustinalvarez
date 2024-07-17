@@ -16,7 +16,6 @@ function Products() {
       url: "https://fakestoreapi.com/products/category/electronics",
     })
       .then((res) => {
-        // console.log(res.data);
         setData(res.data);
       })
       .catch((e) => console.log(e));

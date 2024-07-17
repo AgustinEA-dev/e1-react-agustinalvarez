@@ -7,26 +7,11 @@ export const NavBarStyled = styled.nav`
   justify-content: space-between;
   align-items: center;
   background-image: url("./keyboard.jpg");
+  position: fixed;
   @media (max-width: 220px) {
     flex-direction: column;
     justify-content: center;
     gap: 20px;
-  }
-`;
-
-export const LogoStyled = styled.span`
-  font-size: 30px;
-  color: #3e8eff;
-  padding-left: 20px;
-  font-family: "Rubik Mono One", monospace;
-  @media (max-width: 550px) {
-    font-size: 20px;
-  }
-  @media (max-width: 390px) {
-    font-size: 15px;
-  }
-  @media (max-width: 220px) {
-    padding-left: 0;
   }
 `;
 
@@ -39,12 +24,17 @@ export const UlStyled = styled.ul`
 `;
 
 export const LinkStyled = styled(Link)`
-  font-size: 20px;
+  font-size: 22px;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
   color: #ffff;
-  
+  padding: 10px;
+  &:hover{
+    transform: translateY(-5px);
+    transition: all 0.5s;
+  }
+
   @media (max-width: 950px) {
     display: none;
   }
@@ -64,8 +54,8 @@ export const IStyledCart = styled.i`
 `;
 
 export const IStyledBars = styled.i`
-  font-size: 20px;
-  color: #A2AAB2;
+  font-size: 23px;
+  color: #ffff;
   padding-right: 20px;
   display: none;
   @media (max-width: 950px) {
@@ -75,3 +65,17 @@ export const IStyledBars = styled.i`
     padding: 0;
   }
 `;
+
+export const SecondaryMenuStyled = styled.div`
+display: flex;
+flex-direction: column;
+gap: 20px;
+width: 100%;
+min-height: 100px;
+background-color: red;
+margin-top: 150px;
+z-index: 1;
+`;
+
+
+

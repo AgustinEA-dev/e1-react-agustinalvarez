@@ -6,14 +6,16 @@ export const HeroStyled = styled.section`
   justify-content: center;
   width: 100%;
   height: 400px;
+
 `;
 
 export const HeroTextStyled = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("./keyboard.jpg");
-  background-position-y: bottom;
+  background-image: url("./abstract-bg2.jpg");
+  background-size: cover;
+  background-position: left;
   color: white;
   width: 100%;
   padding: 30px;
